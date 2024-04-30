@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets\laugh.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.2/css/all.css">
+    <title>Joke Nest</title>
+</head>
+<body>
+    <div class="header">
+       <img src="assets\laugh.png">
+       <a href="#">Joke Nest</a>
+    </div>
+    <div class="main-body">
+        <div class="cards-container">
+            <div class="card" id="card1">
+                <div class="card-info">
+                    <div class="questn">Why did the house go to the doctor?</div>
+                    <div class="ans">It was having window panes.</div>
+                </div>
+                <div class="card-features">
+                    <div class="like" id="like1">
+                        <i class="fa-solid fa-heart"></i>
+                        <p></p>
+                    </div>
+                    <button>New Joke</button>
+                </div>
+            </div>
+            <div class="card" id="card2">
+                <div class="card-info">
+                    <div class="questn">How many apples grow on a tree?</div>
+                    <div class="ans">All of them!</div>
+                </div>
+                <div class="card-features">
+                    <div class="like" id="like2">
+                        <i class="fa-solid fa-heart"></i>
+                        <p></p>
+                    </div>
+                    <button>Laugh Time</button>
+                </div>
+            </div>
+            <div class="card" id="card3">
+                <div class="card-info">
+                    <div class="questn">Why do crabs never give to charity?</div>
+                    <div class="ans">Because they are shellfish.</div>
+                </div>
+                <div class="card-features">
+                    <div class="like" id="like3">
+                        <i class="fa-solid fa-heart"></i>
+                        <p></p>
+                    </div>
+                    <button>Refresh Wit</button>
+                </div>
+            </div>
+            <div class="card" id="card4">
+                <div class="card-info">
+                    <div class="questn">What is the tallest building in the world?</div>
+                    <div class="ans">The library, it has got the most stories!</div>
+                </div>
+                <div class="card-features">
+                    <div class="like" id="like4">
+                        <i class="fa-solid fa-heart"></i>
+                        <p></p>
+                    </div>
+                    <button>Make me Smile</button>
+                </div>
+            </div>
+            <div class="card" id="card5">
+                <div class="card-info">
+                    <div class="questn">How are false teeth like stars?</div>
+                    <div class="ans">They come out at night!</div>
+                </div>
+                <div class="card-features">
+                    <div class="like" id="like5">
+                        <i class="fa-solid fa-heart"></i>
+                        <p></p>
+                    </div>
+                    <button>Joke Away</button>
+                </div>
+            </div>
+            <div class="card" id="card6">
+                <div class="card-info">
+                    <div class="questn">Where do sheep go to get their hair cut?</div>
+                    <div class="ans">The baa-baa shop.</div>
+                </div>
+                <div class="card-features">
+                    <div class="like" id="like6">
+                        <i class="fa-solid fa-heart"></i>
+                        <p></p>
+                    </div>
+                    <button>Humor Me</button>
+                </div>
+            </div>
+        </div>
+        <div class="joke-of-the-day">
+            <div class="joke-card">
+                <div class="joke-head">
+                    <i class="fa-solid fa-badge-check"></i>
+                    <h1>Most Voted Joke !</h1>
+                </div>
+                <div class="joke-body">
+                    <h2>Why do crabs never give to charity?</h2>
+                    <h3>Because they are shellfish.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

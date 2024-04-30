@@ -1,0 +1,171 @@
+body {
+    font-family: "Rubik", sans-serif;
+    background-color: #eae2b7;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    height: 6rem;
+    background-color: #003049;
+    top: 0;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.header img {
+    width: 4rem;
+    height: 4rem;
+    margin: 0 1.5rem 0 0.5rem;
+}
+
+.header a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #eae2b7;
+}
+
+.main-body {
+    padding: 2rem;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-body .cards-container {
+    padding: 1rem;
+    width: 90%;
+    border-radius: 0.5rem;
+    background-color: rgba(240, 255, 255, 0.468);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    font-weight: 500;
+}
+
+.cards-container .card {
+    background-color: #aed9e09b;
+    width: 100%;
+    height: 6rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: solid 2px #ff0054;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.cards-container .card .card-info {
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    /* margin-bottom: 4rem; */
+}
+
+.card-info .questn {
+    width: 100%;
+    font-size: 1.5rem;
+    border-bottom: solid 1px #ff00558f;
+}
+
+.card-info .ans {
+    width: 100%;
+    font-size: 1.25rem;
+}
+
+.card-features {
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-features .like {
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-features i {
+    font-size: 1.3rem;
+    color: lightgray;
+}
+
+.card-features i:hover {
+    cursor: pointer;
+}
+
+.card-features p {
+    margin: 0;
+    font-size: 8px;
+}
+
+.card-features button {
+    border: solid 2px #ff0054;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.75rem;
+}
+
+.card-features button:hover {
+    cursor: pointer;
+}
+
+.joke-of-the-day {
+    padding: 1rem;
+    width: 90%;
+    border-radius: 0.5rem;
+    background-color: #fb6f92b9;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    margin-top: 3rem;
+}
+
+.joke-of-the-day .joke-card {
+    width: 100%;
+    border: solid 4.5px #f5ebe0;
+    border-radius: 0.5rem;
+}
+
+.joke-of-the-day .joke-head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.joke-of-the-day i {
+    font-size: 3.5rem;
+    margin-right: 2rem;
+    margin-left: 0.5rem;
+}
+
+.joke-of-the-day h1 {
+    border-bottom: solid 2px #f5ebe0;
+}
+
+.joke-card .joke-body h2 {
+    margin: 1.5rem 0 1.5rem 4rem;
+}
+
+.joke-card .joke-body h3 {
+    margin: 0.5rem 0 1.5rem 4rem;
+}
