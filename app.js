@@ -63,7 +63,6 @@ jokeBtnSix.addEventListener("click", async() => {
 async function getJokes() {
     try {
         let res = await axios.get(url);
-        console.log(res);
         return (res.data); 
     } catch(err) {
         console.log(err);
@@ -121,7 +120,6 @@ let mainJokePunch = document.querySelector(".joke-of-the-day .joke-body h3");
 
 let SetupLine = document.querySelector(`#card${maxLikeIndex+1} .questn`).textContent;
 let PunchLine = document.querySelector(`#card${maxLikeIndex+1} .ans`).textContent;
-console.log(SetupLine,PunchLine);
 
 mainJokeSetup.innerText = `${SetupLine}`;
 mainJokePunch.innerText = `${PunchLine}`;
